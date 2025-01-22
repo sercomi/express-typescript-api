@@ -2,10 +2,10 @@
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
     "checkJs": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "types": ["jest"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts", "test/**/*.ts", "jest.config.ts"],
   "exclude": ["node_modules"]
 }

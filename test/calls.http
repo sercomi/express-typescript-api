@@ -1,0 +1,5 @@
+### home call
+GET http://localhost:3000
+
+### error call
+GET http://localhost:3000/unknown
